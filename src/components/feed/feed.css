@@ -1,0 +1,17 @@
+[type="file"] {
+    width: 15%;
+    min-width: 14ch;
+    color: white;
+  }
+  
+  [type="file"]::file-selector-button {
+    width: 100%;
+    margin-inline-end: 0;
+    padding: 0.1rem;
+    background-color: transparent;
+    color: smoke;
+    border: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
