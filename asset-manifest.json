@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/frendz-app/static/css/main.4a8918f9.css",
+    "main.js": "/frendz-app/static/js/main.8b82c1f3.js",
+    "static/js/787.bbe309da.chunk.js": "/frendz-app/static/js/787.bbe309da.chunk.js",
+    "static/media/yellow-light-background-hd.jpg": "/frendz-app/static/media/yellow-light-background-hd.b70284fa898df4547a6f.jpg",
+    "static/media/Frendz.jpg": "/frendz-app/static/media/Frendz.d4699bdce468153c3ec3.jpg",
+    "index.html": "/frendz-app/index.html",
+    "main.4a8918f9.css.map": "/frendz-app/static/css/main.4a8918f9.css.map",
+    "main.8b82c1f3.js.map": "/frendz-app/static/js/main.8b82c1f3.js.map",
+    "787.bbe309da.chunk.js.map": "/frendz-app/static/js/787.bbe309da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a8918f9.css",
+    "static/js/main.8b82c1f3.js"
+  ]
+}
