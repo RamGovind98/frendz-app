@@ -2,6 +2,7 @@
   "name": "frendz-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ramgovind98.github.io/frendz-app/",
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "@emotion/react": "^11.11.1",
@@ -33,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -57,6 +60,7 @@
     "@types/react-router-config": "^5.0.7",
     "@types/uuid": "^9.0.3",
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
     "style-loader": "^3.3.3",
     "tailwindcss": "^3.3.3"
   }

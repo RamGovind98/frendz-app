@@ -22,7 +22,6 @@ const RegisterContainer = styled.div`
 const RegisterContent = styled.div`
   max-width: 450px;
   width: 100%;
-  height:40vh;
   background-color: #fff;
   padding: 20px;
     border-radius: 4px;

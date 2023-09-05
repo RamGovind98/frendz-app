@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Login from "./components/auth/login/login";

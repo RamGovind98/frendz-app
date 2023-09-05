@@ -24,7 +24,6 @@ const LoginContainer = styled.div`
 const LoginContent = styled.div`
     max-width: 450px;
     width: 100%;
-    height:35vh;
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
