@@ -32,7 +32,7 @@ function NewPost() {
 }
 function handleUpload(file:any) {
     if (file) {
-        const storageRef = ref(storage, `images/${file}`)
+        const storageRef = ref(storage, `images/${file.name}`)
         const uploadTask = uploadBytesResumable(storageRef, file);
          uploadTask.on('state_changed', 
   (snapshot) => {
