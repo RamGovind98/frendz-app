@@ -14,14 +14,14 @@ const { Text } = Typography;
 export default function Comments() {
   const { id } = useParams();
   const { post, isLoading } = usePost(id as string);
-  const history=useNavigate()
+  const history = useNavigate()
 
-  if (isLoading) return <Spin size="large" />; // Display a loading spinner
+  if (isLoading) return <div><Spin size="large" tip="loading..." /></div>; // Display a loading spinner
 
   return (
     <div style={{ textAlign: "center", paddingTop: "50px" }}>
-      <div style={{ padding: "8px", width:"50vw", textAlign: "left" }}>
-         <Button type="primary" onClick={()=>history('/protected/feed')}>Back</Button>
+      <div style={{ padding: "8px", width: "50vw", textAlign: "left" }}>
+        <Button type="primary" onClick={() => history('/protected/feed')}>Back</Button>
         <Card
           bordered={true}
           bodyStyle={{ minHeight: "100px" }}

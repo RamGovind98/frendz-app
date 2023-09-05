@@ -25,7 +25,7 @@ export default function EditProfileModal({ isOpen, onClose }: EditProfileProps) 
     }
   };
 
-  if (authLoading) return <Spin size="large" />; 
+  if (authLoading) return <div><Spin size="large" tip="loading..." /></div>;
 
   return (
     <Modal
@@ -36,8 +36,8 @@ export default function EditProfileModal({ isOpen, onClose }: EditProfileProps) 
     >
       <Space direction="vertical" align="center">
         <Avatar user={user} overrideAvatar={fileURL} />
-        <Form onFinish={updateAvatar}   name="profile">
-          <Form.Item  name="" label="Change Avatar">
+        <Form onFinish={updateAvatar} name="profile">
+          <Form.Item name="" label="Change Avatar">
             <Upload
               customRequest={() => { }}
               onChange={handleChange}

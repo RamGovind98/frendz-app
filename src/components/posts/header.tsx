@@ -29,13 +29,13 @@ export const Header: React.FC<HeaderProps> = (posts: any) => {
 
   const { post } = posts;
   const { user, isLoading } = useUser(post.uid);
-  
-  if (isLoading) return <Spin tip="Loading..." />;
+
+  if (isLoading) return <div><Spin tip="Loading..." /></div>;
 
   return (
     <Card style={headerStyle}>
       <Space>
-        <Avatar  size={64}  user={user}/>
+        <Avatar size={64} user={user} />
         <Text className='text-lg'>{user?.username}</Text>
         <div className='flex gap-[550px]'>
           <UsernameButton user={user} />
